@@ -84,7 +84,7 @@ float hcsrRead(){
 		time++;
 		delayUS(1);
 	}
-	tempDistance=(float) time/8 ;
+	tempDistance=(float) time/58 ;
 	//tempDistance=tempDistance*4;
 	if(tempDistance>400)tempDistance=400;
 	//if(tempDistance<2)tempDistance=2;
